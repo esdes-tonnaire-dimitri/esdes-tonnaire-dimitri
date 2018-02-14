@@ -1,0 +1,145 @@
+@font-face{
+    font-family: sugar;
+    src: url(sugar.ttf);
+}
+
+html {
+    height:100%;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: chocolate
+    }
+}
+
+body{
+    height: 100%;
+    margin:0;   
+}
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1504297050568-910d24c426d3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5d3ab702f0e85bf6ae318a2b4d3f59b&auto=format&fit=crop&w=1534&q=80);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    background-image: url('https://www.lisolation.fr/wp-content/uploads/2014/11/isolation-plancher-bois.jpg');
+    color: whitesmoke;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: 100%;
+    background-attachment: scroll;
+    padding: 5%;
+    
+}
+
+.image{
+    height: 50%;
+    width: 50%;
+}
+.art{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('http://www.madameki.fr/wp-content/uploads/2017/07/mC3A9lange-moderne-et-ancien.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+}
+h1{
+    
+    color: whitesmoke;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'sugar','-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*background-image: url(https://static.pexels.com/photos/531880/pexels-photo-531880.jpeg);*/
+    background-position: center;
+    border: solid 4px whitesmoke;
+    padding: 5px;
+    transition: background-color 2s ease-in-out;
+    transition: letter-spacing 1s ease-in-out;
+   } 
+h1:hover{
+    background-color: grey;
+    opacity: 100;
+    letter-spacing: 20px;
+
+}
+
+article{
+    border: solid 5px whitesmoke;
+    border-radius: 10px;
+    width: 30%;
+    height: 90%;
+    margin: 10px;
+    transition: font-size 1s;
+    position: relative;
+    filter: grayscale(1);
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+
+}
+
+article:hover {
+    filter: grayscale(0);
+    font-size: 140%;
+}
+
+article:hover .art {
+    filter: grayscale(0);
+    transform: scale(1.5);
+}
+
+
+/* For Mobiles ONLY */
+@media only screen and (max-width:600px) {
+    .section{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 3%;
+        margin: 0%;
+
+
+    }
+
+
+}
+
+/* Fot Tablets ONLY */
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    article{
+        width: 30%;
+    }
+
+}
+
+/* For Desktop ONLY */
+@media only screen and (min-width: 900px) {
+
+}
+article h2 {
+    color: whitesmoke;
+
+}
