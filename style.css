@@ -29,6 +29,7 @@ header{
     margin: 0;
     height: 100%;
     width: 100%;
+    color: white;
 }
 
 section{
@@ -142,4 +143,26 @@ article:hover .art {
 article h2 {
     color: whitesmoke;
 
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgba(50, 50, 50, 50);
+    color: white;
+    border: solid 2px whitesmoke;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+.toast{
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    opacity: 0;
 }
