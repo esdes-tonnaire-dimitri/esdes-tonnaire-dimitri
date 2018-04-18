@@ -20,17 +20,16 @@ J’ai choisi d’intégrer un plugin Spotify d’où les utilisateurs pourront 
 
 ##La structure de la page d’accueil :
 
- [url=https://www.noelshack.com/2018-16-3-1524067904-maquette.png][img]https://image.noelshack.com/minis/2018/16/3/1524067904-maquette.png[/img][/url]
+![MAQUETTE ACCUEIL](https://image.noelshack.com/fichiers/2018/16/3/1524067904-maquette.png)
 
 J’ai pu m’inspirer d’éléments de ce site : http://www.raphael-tonnaire-travaux.fr/ pour les menus des header et footer notamment, et la première section. 
 
 ##Pour la page de réalisations (le portfolio), je souhaite utiliser des blocs côtes à côtes, dans le style de ce site : (www.wereso.com)
 
- [url=https://www.noelshack.com/2018-16-3-1524067904-maquette-p2.png][img]https://image.noelshack.com/minis/2018/16/3/1524067904-maquette-p2.png[/img][/url]
 
 Avec le même header et footer que la page d’accueil bien entendu.
 
 Ce qui donne donc en structure du portfolio : 
 
- 
+![MAQUETTE ACCUEIL](https://image.noelshack.com/fichiers/2018/16/3/1524067904-maquette-p2.png)
 
