@@ -1,118 +1,313 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
-<head>
-    <title>DU MODERNE DANS L'ANCIEN</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="style.css">
+<head class="title">
+    <meta charset="utf-8">
+    <title>Dimitri TONNAIRE étudiant en alternance communication</title>
+    <meta name="description" content="Etudiant lyonnais à l'ESDES Business School en Management et Communcation Digitale - alternance : Weréso Lyon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dimitri Tonnaire">
+    <meta name="language" content="fr">
+    <link rel="stylesheet" href="css2.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="w3/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="icon" class="w3-circle" href="img/profilepicture.jpg">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108255063-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108255063-1');
+    </script>
+
 </head>
 
-<body>
+<body id="body">
+    <header class=" w3-animate-top w3-top w3-bar w3-mobile w3-white w3-wide w3-padding-large w3-card-2 barre_haut">
+        <a href="index.html" class="w3-bar-item w3-button">DIMITRI
+            <strong> TONNAIRE</strong> - site en construction</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
 
-    <header class="flex-container">
-        <div id="cssSelector">
-            <div class="line">
-                <div class="square el"></div>
+            <a href="#pro" class="w3-bar-item w3-button">mon parcours professionnel</a>
+            <a href="#formation" class="w3-bar-item w3-button">ma formation</a>
+            <a href="articles.html" class="w3-bar-item w3-button">articles</a>
+            <a href="realisations.html" class="w3-bar-item w3-button">réalisations</a>
+            <a href="contact.html" class="w3-bar-item w3-button">contact</a>
+        </div>
+    </header>
+    <header class="w3-display-container w3-hover-opacity">
+        <img class="picture w3-animate-top img-thumbnail" src="http://images.freeimages.com/images/large-previews/11b/lyon-1-1186713.jpg"
+            alt="Fond Lyon">
+        <div class="w3-display-middle w3-display-hover title">
+            <img class="flex-item w3-circle w3-animate-top" src="img/profilepicture.jpg" alt="profilepicture.jpg">
+            <a href="#QUI" class="w3-button w3-black flex-item w3-animate-bottom">En savoir plus</a>
+        </div>
+    </header>
+    <div class="w3-content w3-section center w3-mobile " style="max-width:500px">
+        <h1>Des expériences diverses et variées</h1>
+        <hr class="separation w3-section-center w3-hide-small" />
+        <img class="mySlides" src="img/BPLG.png" alt="BPLG.png">
+        <img class="mySlides" src="img/wereso.png" alt="wereso.png">
+        <img class="mySlides" src="img/esdes.png" alt="esdes.png">
+        <img class="mySlides" src="img/gea.png" alt="ges.png">
+        <img class="mySlides" src="img/stade.png" alt="buvettes-OL.png">
+        <img class="mySlides" src="img/woka.png" alt="woka.png">
+        <img class="mySlides" src="img/laposte.png" alt="laposte.png">
+    </div>
+    <div>
+        <h2>Un peu de musique pendant votre navigation ? (Nécessite Spotify) </h2>
+        <iframe src="https://open.spotify.com/embed?uri=spotify:user:21wkeqe473chnfp6dcuv3yjty:playlist:3R7rwtZpSIYZOqVPtmocSs&view=coverart"
+            class="spotify"></iframe>
+    </div>
+    <div class="w3-display-container" id="QUI">
+        <img class="picture w3-animate-left img-thumbnail" src="img/Arbois.jpg" alt="Arbois">
+        <h1 class="w3-display-middle w3-display-hover w3-panel w3-grey w3-animate-left title w3-hover-opacity">ARTICLES </h1>
+        <p class="w3-display-container w3-align-content">
+            <hr>
+            <p>
+                <a href="article-1.html">ARTICLE 1 : LE SUCCES DES ESPACES DE COWORKING</a>
+                <br>
+                <a href="article-2.html">ARTICLE 2 : UN DISCOURS QUI M'INSPIRE</a>
+                <br>
+                <a href="article-3.html">ARTICLE 3 : CRÉER SA SOCIÉTÉ: FORMALITÉS ADMINISTRATIVES</a>
+                <br>
+                <a href="article-4.html">ARTICLE 4 : ILS ONT MARQUÉ 2017</a>
+            </p>
+            <hr>
+            <h2>Consultez mon
+                <a href="https://www.linkedin.com/in/dimitri-tonnaire/" target="_blank">profil Linkedin</a> :</h2>
+            <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/dimitri-tonnaire" data-format="inline" data-related="false"></script>
+
+    </div>
+    <section id="pro" class="w3-display">
+
+        <div class="w3-display-container">
+            <img class="picture w3-animate-top img-thumbnail" src="img/ParcOL.jpg" alt="ParcOL.png">
+            <h2 class="w3-display-hover w3-animate-left title w3-hover-opacity w3-flex-item">MON PARCOURS PROFESSIONNEL ? </h2>
+
+            <ul class="w3-ul">
+                <li class="w3-bar">
+                    <a href="http://www.wereso.com/" onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">+</a>
+                    <img src="img/Wereso.jpg" alt="WERESO // Here We Share" class="w3-bar-item w3-round w3-hide-small" style="width:150px">
+                    <div class="w3-bar-item">
+                        <span class="w3-large">Community Manager (alternance)</span>
+                        <br>
+                        <span class="company" id="wereso">▌Weréso Lyon ▌</span>
+                        <p> -Community Management : animation des différentes pages de la société sur les réseaux sociaux et
+                            le site web
+                            <br> -Gestion des plateformes de réservation et des campagnes d'emailing
+                            <br> -Gestion administrative et commerciale
+                            <br> -Projet de mise en lien du CRM et de l'outil de facturation
+                            <br> -Accueil physique des clients, tenue des locaux
+                            <br> -Relais et créateur de liens entre les co-workers</p>
+                    </div>
+                </li>
+
+                <li class="w3-bar">
+                    <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                    <img src="http://www.ufcquechoisir-dordogne.org/wp-content/themes/ufc/timthumb.php?src=http://www.ufcquechoisir-dordogne.org/wp-content/uploads/2015/10/logo-bnp.png&w=800&h=auto&zc=1&q=80"
+                        class="w3-bar-item w3-round w3-hide-small" alt="BPLGlogo" style="width:150px">
+                    <div class="w3-bar-item">
+                        <span class="w3-large">Gestionnaire avant-vente (alternance)</span>
+                        <br>
+                        <span class="company" id="bnp">▌BNP Paribas Lease Group ▌</span>
+                        <p>Mise en loyers:
+                            <br>- Conformité (vérification de la complétude des dossiers ainsi que de leur conformité aux réglementations
+                            en vigueur du Code Monétaire et Financier)
+                            <br> - Récupération des documents auprès des fournisseurs (appels téléphoniques, mails)
+                            <br> - Finalisation et paiement des dossiers de locations / crédits-baux (logiciel interne)
+                            <br> - Gestion des litiges (Relances téléphoniques et mails, tableau suivi/statistiques Excel)
+                            <br> - Gestion du courrier entrant et sortant (réception, envoi, statistiques)
+                            <br> - Formation d'une stagiaire
+                            <br>
+                            <br> Objectifs: acquérir un sens de l'autonomie, de la rigueur, de l'aisance téléphonique et professionnelle.
+                            <br>
+                            <br> Ma singularité : quantifier mon travail pour faire toujours mieux.
+                            <br>
+                            <br> Réalisation d'un mémoire de fin de DUT sur le thème suivant: Conformité bancaire, enjeux et
+                            traitement opérationnel. (Note obtenue : 18/20)</p>
+                    </div>
+                </li>
+
+                <li class="w3-bar">
+                    <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/e/e2/Olympique_lyonnais_%28logo%29.svg/888px-Olympique_lyonnais_%28logo%29.svg.png"
+                        class="w3-bar-item w3-round w3-hide-small" alt="OLlogo" style="width:150px">
+                    <div class="w3-bar-item">
+                        <span class="w3-large">Manager Buvette</span>
+                        <br>
+                        <span>▌Olympique Lyonnais, Groupama Stadium ▌</span>
+                        <p>Responsable buvette :</p>
+                        <p>
+                            <br> Direction d'une équipe de 9 personnes
+                            <br> Gestion des stocks, de la production et de l'approvisionnement (objectif 0 gaspillage -&gt;
+                            éviter la surproduction)
+                            <br> Litiges clients
+                            <br> Compte-rendu de performance
+                            <br> Contrôle des écarts caisse, déclaration des CA, compte des espèces</p>
+                    </div>
+                </li>
+
+                <li class="w3-bar">
+                    <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/fr/2/2a/Logo-laposte.png" class="w3-bar-item w3-round w3-hide-small" alt="LAPOSTElogo"
+                        style="width:150px">
+                    <div class="w3-bar-item">
+                        <span class="w3-large">Facteur</span>
+                        <br>
+                        <span>▌Laposte ▌</span>
+                        <p>Tri, distribution et réexpédition du courrier.</p>
+                    </div>
+                </li>
+
+                <li class="w3-bar">
+                    <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                    <img src="http://franche-comte.profession-sport-loisirs.fr/sites/national/files/assos/datas/franche_comte_profession_sport_loisirs_fr/logo_woka_et_pictos.jpg"
+                        class="w3-bar-item w3-round w3-hide-small" alt="LAPOSTElogo" style="width:150px">
+                    <div class="w3-bar-item">
+                        <span class="w3-large">Opérateur d'accueil</span>
+                        <br>
+                        <span>▌Woka Loisirs - Parc Accrobranche de Salins-les-Bains ▌</span>
+                        <p>Accueil, encaissement, briefing et surveillance des clients du Parc accrobranche;
+                            <br>Entretien du site historique du
+                            <a href="http://www.fort-st-andre.com/" target="_blank">Fort Saint-André</a>.</p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <div id="formation" class="w3-display-container">
+
+        </div>
+        <div class="w3-container w3-white">
+            <img class="picture w3-animate-top img-rounded" src="img/ucly1.png" alt="ucly.png">
+            <div class="w3-display-middle w3-display-hover w3-panel w3-grey">
+                <h2 class="w3-animate-left title w3-hover-opacity">MA FORMATION</h2>
+            </div>
+
+            <div>
+                <ul class="w3-ul w3-card-4 w3-white">
+                    <li class="w3-bar">
+                        <img src="img/esdes.png" alt="ESDESlogo" class="w3-bar-item w3-round w3-developp-small" style="width:150px">
+                        <div class="w3-bar-item">
+                            <span class="w3-large w3">BACHELOR 3 MANAGEMENT ET COMMUNICATION DIGITALE</span>
+                            <br>
+                            <span>▌ESDES The Business School of UCLY ▌</span>
+                            <p>Web éditorial, SEO/référencement, création de site web, réseaux sociaux ;
+                                <br> Ethique et responsabilité des entreprises, droit numérique, ressources humaines, comportement
+                                organisationnel ...
+                                <br>Université Catholique de Lyon (UCLy).</p>
+                            <p>En alternance chez
+                                <a href="#wereso">Weréso</a>.</p>
+                        </div>
+                    </li>
+
+                    <li class="w3-bar">
+                        <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                        <img src="https://static-s.aa-cdn.net/img/gp/20600004297180/f-gwBdXtBZZCfDr-J8C3589DtpTl81yQJ5nPmXKWlE4zsDMj0A8Mh3asnVFntBdVJ2Q=w300"
+                            class="w3-bar-item w3-round w3-hide-small" alt="IUTlogo" style="width:150px">
+                        <div class="w3-bar-item">
+                            <span class="w3-large">DUT GESTION DES ENTREPRISES ET DES ADMINISTRATIONS</span>
+                            <br>
+                            <span>▌IUT Lumière Lyon 2 ▌</span>
+                            <p>Comptabilité, mathématiques financières, calcul de coûts, gestion de projets, ressources humaines,
+                                management, communication, informatique appliquée à la gestion, marketing, économie, anglais
+                                professionnel,...
+                            </p>
+                            <p>Option Gestion et Management des Organisations en seconde année.</p>
+                            <p>Seconde année en alternance chez
+                                <a href="#bnp">BNP Paribas Lease Group</a>.</p>
+                        </div>
+                    </li>
+
+                    <li class="w3-bar">
+                        <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                        <img src="http://static.srv42.net/www.lesecoles.net/uploaded_files/etablissement/45984/auto.jpg" class="w3-bar-item w3-round w3-hide-small img-thumbnail"
+                            alt="LYCEElogo" style="width:150px">
+                        <div class="w3-bar-item">
+                            <span class="w3-large">Baccalauréat Economique et Social</span>
+                            <br>
+                            <span>▌Lycée Victor Considérant ▌</span>
+                            <p>Mention bien</p>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
         </div>
-        <h1 class="flex-container ">
-            Du moderne dans l'ancien ...
-        </h1>
 
-        <!-- test bouton, à revoir plus tard
-        <label class="title">Ta ville est-elle référencée ? :</label>
-        <input id="city" value="" type="text" name="city" placeholder="Saisir une ville ...">
-        <button onclick="getValue()">On a ou pas ?</button>
-        -->
-    </header>
-    <!-- <p class="toast" id="answer"></p>
-    <p id="answer"></p>
-    <script src="scripts/anim.js"></script>
-    <script src="scripts/index.js"></script> -->
 
-    <section class="section">
-        <article>
-            <div id="monaco" class="art"></div>
-            <h2>
-                Montecarlo, Monaco
-            </h2>
-            <p>
-                Monaco
-            </p>
-        </article>
-        <article>
-            <div id="paris" class="art"></div>
-            <h2>
-                Paris, IDF
-            </h2>
-            <p>
-                LOREM IPSUM
-            </p>
-        </article>
-        <article>
-            <div id="besac" class="art"></div>
-            <h2>
-                Besançon, Franche-Comté
-            </h2>
-            <p>
-                LOREM IPSUM
-            </p>
-        </article>
-        <article>
-            <div id="lyon" class="art"></div>
-            <h2>
-                Lyon, Rhône-Alpes
-            </h2>
-            <p>
-                LOREM IPSUM
-            </p>
-        </article>
-        <article>
-            <div id="dijon" class="art"></div>
-            <h2>
-                Dijon, Bourgogne
-            </h2>
-            <p>
-                LOREM IPSUM
-            </p>
-        </article>
-        <article>
-            <div id="lille" class="art"></div>
-            <h2>
-                Lille, Nord
-            </h2>
-            <p>
-                LOREM IPSUM
-            </p>
-        </article>
-        <article>
-            <div id="annecy" class="art"></div>
-            <h2>
-                Annecy, Savoie
-            </h2>
-            <p>
-                LOREM IPSUM
-            </p>
-        </article>
-        <article>
-            <div id="nice" class="art"></div>
-            <h2>
-                Nice, PACA
-            </h2>
-            <p>
-                LOREM IPSUM
-            </p>
-        </article>
-        <article>
-            <div id="nantes" class="art"></div>
-            <h2>
-                Nantes, Loire-Atlantique
-            </h2>
-            <p>
-                LOREM IPSUM
-            </p>
-        </article>
+
     </section>
+    <footer class="w3-white">
+        <h1>Ce site a été conçu à la main dans le cadre des cours de codage et de SEO. D'où les imperfections ! Soyez indulgents
+            😉
+        </h1>
+        <h1>Sites partenaires (également faits main !) :</h1>
+        <ul>
+            <li>
+                <a href="https://esdes-nazon-philae.github.io" target="_blank"> Philae NAZON</a> //
+                <a href="https://esdes-ulrich-manon.github.io" target="_blank"> Manon ULRICH</a> //
+                <a href="https://esdes-robert-marine.github.io" target="_blank"> Marine ROBERT</a> //
+                <a href="https://esdes-nguyen-jade.github.io" target="_blank"> Jade NGUYEN</a> //
+                <a href="https://esdes-fleury-antoine.github.io" target="_blank"> Antoine FLEURY</a> //
+                <a href="https://esdes-distefano-guillaume.github.io" target="_blank"> Guillaume DI STEFANO</a> //
+                <a href="https://esdes-diane-chameroy.github.io" target="_blank">Diane CHAMEROY</a>.
+            </li>
+        </ul>
+        <button id="myButton" onclick="changeClass('nouveau name')">
+            <span class="glyphicon glyphicon-cloud" style="font-size:48px;color:red;">
+                <img class="imgbutton" src="img/esdes.png" alt="esdes.png">
+            </span>
+        </button>
+
+
+
+
+    </footer>
+
+    <footer class=" w3-animate-top w3-center w3-bottom w3-bar w3-mobile w3-white w3-wide w3-padding w3-card-2 barre_haut">Dimitri TONNAIRE - 07 61 58 84 14 -
+        <a href="mailto:dimitri.tonnaire@gmail.com">dimitri.tonnaire@gmail.com</a> -
+        <a href="https://www.linkedin.com/in/dimitri-tonnaire" target="_blank">
+            <img class="picturelogo" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Ribbon%2C_Linkedin.png" alt="linkedincravate.png">
+        </a>
+        <a href="http://www.esdes.fr" target="_blank">
+            <img class="picturelogo w3-circle" src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Logo_ESDES_2015.png" alt="esdes.png">
+        </a>
+        <a href="http://www.wereso.com" target="_blank">
+            <img class="picturelogo w3-circle" src="http://wereso.com/wp-content/uploads/2017/07/logo_wereso.png" alt="wereso.png">
+        </a>
+
+    </footer>
+    <script src="index.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="//platform.linkedin.com/in.js"></script>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
     <script src="scripts/anim.js"></script>
-    <script src="scripts/index.js"></script>
+    <script src="index.js"></script>
+    <script src="snowstorm.js"></script>
 </body>
+
+
+
+</html>

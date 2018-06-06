@@ -1,0 +1,255 @@
+@font-face {
+    font-family: AR-BONNIE;
+    src: url(ARBONNIE.ttf);
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 10, 109);
+    background: #FFFFFF
+}
+header {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #FFFFFF;
+    margin-right: 10%;
+    display: flex;
+    font-family: AR-BONNIE, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+  
+}
+.title {
+    width: 11em;
+    align-content: center;
+    font-family: AR-BONNIE, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.content {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item {
+    
+    order: 1;
+    align-content: center;
+    margin-left: 10%;
+    width: 190px;
+    color: #F3F0F0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.flex-title {
+    border: 2px solid wheat;
+}
+.barre_haut {
+    position: fixed;
+}
+.picture {
+    width: 100%;
+}
+.picturelogo {
+    width: 2%
+}
+#myButton{
+    transition: transform 1s;
+}
+.rotate{
+    transform: rotate(90deg);
+
+}
+.mySlides{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.separation{
+	clear: both;
+	position:relative;
+	margin-top :10px;
+	margin-left: 250px;
+	height: 200px;
+	width : 5px;
+	background: black;
+	}
+.company{
+	font-style: oblique;
+	font-size: medium;
+	
+
+}
+.imgbutton{
+	width: 80px;
+}
+.spotify{
+    width:100%;
+    height:100px;
+    
+}
+section{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    background-image: url('img/fond-foncé.jpg');
+    color: whitesmoke;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: 100%;
+    background-attachment: scroll;
+    padding: 5%;
+    
+    
+}
+
+.image{
+    height: 50%;
+    width: 50%;
+}
+.art{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('http://www.madameki.fr/wp-content/uploads/2017/07/mC3A9lange-moderne-et-ancien.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+}
+h1{
+    
+    color: whitesmoke;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'sugar','-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*background-image: url(https://static.pexels.com/photos/531880/pexels-photo-531880.jpeg);*/
+    background-position: center;
+    border: solid 4px whitesmoke;
+    padding: 5px;
+    transition: background-color 2s ease-in-out;
+    transition: letter-spacing 1s ease-in-out;
+   } 
+h1:hover{
+    background-color: grey;
+    opacity: 100;
+    letter-spacing: 20px;
+
+}
+
+article{
+    border: solid 5px whitesmoke;
+    border-radius: 10px;
+    width: 50%;
+    height: 1500%;
+    margin: 10px;
+    transition: font-size 1s;
+    position: relative;
+    filter: grayscale(1);
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+
+}
+
+article:hover {
+    filter: grayscale(0);
+    font-size: 140%;
+}
+
+article:hover .art {
+    filter: grayscale(0);
+    transform: scale(1.5);
+}
+
+
+/* For Mobiles ONLY */
+@media only screen and (max-width:600px) {
+    .section{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 3%;
+        margin: 0%;
+
+
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .no-mobile{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 3%;
+        margin: 0%;
+
+
+    }
+}
+
+/* Fot Tablets ONLY */
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    article{
+        width: 30%;
+    }
+
+}
+
+/* For Desktop ONLY */
+@media only screen and (min-width: 900px) {
+
+}
+article h2 {
+    color: whitesmoke;
+
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgba(50, 50, 50, 50);
+    color: white;
+    border: solid 2px whitesmoke;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+.toast{
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    opacity: 0;
+}
+#RTT{
+    background-image: url('img/site-RTT.png');
+}
+#RTT2{
+    background-image: url('img/facebook-RTT.png');
+}
+#weresofb{
+    background-image: url('img/weresofb.png')
+}
