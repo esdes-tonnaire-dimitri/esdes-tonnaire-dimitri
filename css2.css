@@ -1,5 +1,6 @@
 @font-face {
     font-family: AR-BONNIE;
+    font-size: 100%;
     src: url(ARBONNIE.ttf);
 }
 body {
@@ -105,7 +106,7 @@ section{
     flex-wrap: wrap;
     text-align: center;
     display: flex;
-    background-image: url('img/fond-foncé.jpg');
+    background-image: url('img/fondfonce.png');
     color: whitesmoke;
     background-repeat: repeat-y;
     background-position: top center;
@@ -190,6 +191,15 @@ article:hover .art {
 
 
     }
+    .mobile{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 3%;
+        margin: 0%;
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -253,3 +263,4 @@ input{
 #weresofb{
     background-image: url('img/weresofb.png')
 }
+
